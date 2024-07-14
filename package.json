@@ -10,11 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@nuxt/image": "^1.7.0",
     "@pinia/nuxt": "^0.5.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.400.0",
     "microcms-js-sdk": "^3.1.2",
     "nuxt": "^3.12.3",
+    "radix-vue": "^1.9.0",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
     "vue": "latest"
   },
-  "packageManager": "pnpm@9.4.0+sha1.9217c800d4ab947a7aee520242a7b70d64fc7638"
+  "packageManager": "pnpm@9.4.0+sha1.9217c800d4ab947a7aee520242a7b70d64fc7638",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "sass": "^1.77.6",
+    "typescript": "^5.5.3"
+  }
 }
