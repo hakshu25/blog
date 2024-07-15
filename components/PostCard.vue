@@ -27,7 +27,7 @@ interface Props {
   post: Post
 }
 
-const props = defineProps<Props>()
+defineProps<Props>()
 
 const removeHtmlTags = (html: string) => {
   return html.replace(/<[^>]*>/g, '')
